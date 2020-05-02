@@ -1,7 +1,8 @@
    import React from "react";
    import {Link } from "react-router-dom";
   
-  Class Reservation extends React.Component
+  
+  class MyReservation extends React.Component
   {
 
    constructor(props) {
@@ -24,7 +25,7 @@
     });
   }
 
-    function Page1() {
+    render() {
 
         return (
           <div>
@@ -49,4 +50,4 @@
 
     }
   };
-    export default Page1;
+  export default MyReservation;
